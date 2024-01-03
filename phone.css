@@ -1,0 +1,56 @@
+/* navigation */
+#navbar{
+    flex-direction: column;
+}
+#logo img{
+    height: 2.5rem;
+    margin-bottom: 0;
+}
+#navbar ul li a{
+    font-size: 0.75rem;
+    padding: 0.2rem 0.33rem;
+    margin-bottom: 0.25rem;
+}
+
+/* home section */
+#home{
+    height: 90vh;
+}
+#home .h-primary{
+    font-size: 2.25rem;
+}
+#home::before{
+    height: 100vh;
+}
+
+/* meals */
+#meal{
+    flex-direction: column;
+    align-items: center;
+}
+#meal .box{
+    width: 85vw;
+}
+
+/* contacts */
+#contact-box input, #contact-box textarea{
+    width: 100%;
+}
+#contact-box form{
+    width: 75%;
+}
+.form-group textarea{
+    height: 2rem;
+}
+
+footer{
+    font-size: 0.6rem;
+}
+/* utility class */
+.h-primary{
+    font-size: 1.5rem;
+    padding: 0.1rem;
+}
+.h-secondary{
+    font-size: 1.5rem;
+}
